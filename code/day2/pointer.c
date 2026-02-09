@@ -8,4 +8,5 @@ int main()
 	val=(int)ptr;
 	printf("%d",val);
 	return 0;
+	
 }
