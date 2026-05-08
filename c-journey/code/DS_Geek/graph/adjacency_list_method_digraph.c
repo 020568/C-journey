@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
+struct Node 
+{
     int vertex;
     struct Node* next;
 };
@@ -40,7 +41,8 @@ int main() {
     for (int i = 0; i < V; i++) {
         struct Node* temp = graph->adjLists[i];
         printf("%d: ", i);
-        while (temp) {
+        while (temp) 
+		{
             printf("%d ", temp->vertex);
             temp = temp->next;
         }
