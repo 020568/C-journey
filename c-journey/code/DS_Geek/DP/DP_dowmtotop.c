@@ -1,4 +1,5 @@
-int fiboOptimized(int n) {
+int fiboOptimized(int n) 
+{
     if (n <= 1) return n;
     int a = 0; // 代表 dp[i-2]
     int b = 1; // 代表 dp[i-1]
