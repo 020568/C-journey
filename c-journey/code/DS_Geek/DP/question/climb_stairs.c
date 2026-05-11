@@ -17,12 +17,12 @@ long long solve(int n,long long* memo)
 }
 
 int main() {
-    int n = 100; // 假设我们要算爬到 100 级的方法
+    int n = 100;
     
     // 动态分配备忘录空间
     long long* memo = (long long*)malloc((n + 1) * sizeof(long long));
     
-    // 初始化 memo，-1 表示还没算过
+
     for (int i = 0; i <= n; i++) {
         memo[i] = -1;
     }
